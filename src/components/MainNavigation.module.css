@@ -1,0 +1,10 @@
+.list a:hover,
+.list a.active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
