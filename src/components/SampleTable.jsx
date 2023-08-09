@@ -21,7 +21,7 @@ const CustomTd = chakra(Td, {
 const TableExample = () => {
   const rows = Array.from({ length: 8 }, (_, rowIndex) => (
     <Tr key={rowIndex}>
-      {Array.from({ length: 5 }, (_, colIndex) => (
+      {Array.from({ length: 6 }, (_, colIndex) => (
         <CustomTd key={colIndex}>
           Row {rowIndex + 1}, Column {colIndex + 1}
         </CustomTd>
