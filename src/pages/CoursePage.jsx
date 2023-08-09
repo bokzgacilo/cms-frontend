@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import TableExample from '../components/SampleTable';
 
 const CoursePage = () => {
   const COURSES = [
@@ -16,6 +17,7 @@ const CoursePage = () => {
           </li>
         ))}
       </ul>
+      <TableExample />
     </>
   );
 };

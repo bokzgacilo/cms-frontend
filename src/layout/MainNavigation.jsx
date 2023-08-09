@@ -1,9 +1,16 @@
 import { NavLink } from 'react-router-dom';
 import classes from './MainNavigation.module.css';
+import { Flex } from '@chakra-ui/react';
 
 const MainNavigation = () => {
   return (
-    <header className="w-full h-[40px] border flex font-bold  justify-center items-center">
+    <Flex
+      height={'40px'}
+      width={'full'}
+      border={'1px solid black'}
+      justify={'center'}
+      align={'center'}
+    >
       <nav>
         <ul className={classes.list}>
           <li>
@@ -48,7 +55,7 @@ const MainNavigation = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </Flex>
   );
 };
 
